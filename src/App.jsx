@@ -24,7 +24,7 @@ function App() {
     return (
         <div className="App" onLoad={changeBody()}>
             <Cite number={count}/>
-            <button onClick={changeCite}>change user</button>
+            <button onClick={changeCite}>change</button>
         </div>
     );
 }
